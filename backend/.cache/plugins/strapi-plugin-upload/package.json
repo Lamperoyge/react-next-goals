@@ -1,0 +1,88 @@
+{
+  "_from": "strapi-plugin-upload@3.0.0-beta.5",
+  "_id": "strapi-plugin-upload@3.0.0-beta.5",
+  "_inBundle": false,
+  "_integrity": "sha512-NUW/FN/mPD4MMFWzBErThYsop5J2kJzc7SyzUuXnx8U0iDp5hfffpejyFQCNbiyYr4S5rb2LfkkYfpf8jAujxA==",
+  "_location": "/strapi-plugin-upload",
+  "_phantomChildren": {
+    "@babel/runtime": "7.5.5",
+    "hoist-non-react-statics": "3.3.0",
+    "invariant": "2.2.4",
+    "loose-envify": "1.4.0",
+    "prop-types": "15.7.2",
+    "react-is": "16.9.0"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-upload@3.0.0-beta.5",
+    "name": "strapi-plugin-upload",
+    "escapedName": "strapi-plugin-upload",
+    "rawSpec": "3.0.0-beta.5",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.0.0-beta.5.tgz",
+  "_shasum": "6badfc5563dff05ad75df22561bbd338d5e677b1",
+  "_spec": "strapi-plugin-upload@3.0.0-beta.5",
+  "_where": "/Users/lamperouge/code/Lamperoyge/react-next-goals/backend",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "invariant": "^2.2.1",
+    "lodash": "^4.17.11",
+    "react": "^16.0.0",
+    "react-copy-to-clipboard": "^5.0.1",
+    "react-dom": "^16.0.0",
+    "react-intl": "^2.8.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-transition-group": "^2.5.0",
+    "reactstrap": "^5.0.0",
+    "strapi-helper-plugin": "3.0.0-beta.5",
+    "strapi-provider-upload-local": "3.0.0-beta.5",
+    "strapi-utils": "3.0.0-beta.5",
+    "stream-to-array": "^2.3.0",
+    "uuid": "^3.2.1"
+  },
+  "deprecated": false,
+  "description": "This is the description of the plugin.",
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "gitHead": "4ec50ca3fc389c0ea64c07ea3a65346ef52a99e9",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "name": "strapi-plugin-upload",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Files Upload",
+    "icon": "cloud-upload",
+    "description": "Description of upload plugin."
+  },
+  "version": "3.0.0-beta.5",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^10.0.0",
+        "npm": ">= 6.0.0"
+      },
+      "pkgid": "strapi-plugin-upload@3.0.0-beta.5"
+    }
+  ]
+}

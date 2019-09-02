@@ -1,0 +1,84 @@
+{
+  "_from": "strapi-plugin-email@3.0.0-beta.5",
+  "_id": "strapi-plugin-email@3.0.0-beta.5",
+  "_inBundle": false,
+  "_integrity": "sha512-p35s0HzK5H83V0ovaBNIBR/Ekdg1PXpJKDRiBRK1NGQj6Xk2ADFVNTB8wGJEyS+XnHsMKOQc4lHhX3e4T6y4wQ==",
+  "_location": "/strapi-plugin-email",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "strapi-plugin-email@3.0.0-beta.5",
+    "name": "strapi-plugin-email",
+    "escapedName": "strapi-plugin-email",
+    "rawSpec": "3.0.0-beta.5",
+    "saveSpec": null,
+    "fetchSpec": "3.0.0-beta.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-email/-/strapi-plugin-email-3.0.0-beta.5.tgz",
+  "_shasum": "c82013b2617c04b6c662ac0c478c9b278efc0a82",
+  "_spec": "strapi-plugin-email@3.0.0-beta.5",
+  "_where": "/Users/lamperouge/code/Lamperoyge/react-next-goals/backend",
+  "author": {
+    "name": "Strapi team",
+    "email": "hi@strapi.io",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "strapi-provider-email-sendmail": "3.0.0-beta.5",
+    "strapi-utils": "3.0.0-beta.5"
+  },
+  "deprecated": false,
+  "description": "This is the description of the plugin.",
+  "devDependencies": {
+    "react-copy-to-clipboard": "5.0.1",
+    "rimraf": "^2.6.3",
+    "strapi-helper-plugin": "3.0.0-beta.5"
+  },
+  "engines": {
+    "node": "^10.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "gitHead": "4ec50ca3fc389c0ea64c07ea3a65346ef52a99e9",
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Strapi team",
+      "email": "hi@strapi.io",
+      "url": "http://strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-email",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "strapi": {
+    "name": "Email",
+    "icon": "paper-plane",
+    "description": "email.plugin.description",
+    "required": true
+  },
+  "version": "3.0.0-beta.5",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "^10.0.0",
+        "npm": ">= 6.0.0"
+      },
+      "pkgid": "strapi-plugin-email@3.0.0-beta.5"
+    }
+  ]
+}
