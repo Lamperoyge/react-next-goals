@@ -10,11 +10,19 @@
 /coverage
 
 # next.js
-/.next/
+/client/.next/
+/client/.idea
+/backend/.tmp
+/backend/.idea
+/backend/.cache
 /out/
+
+.next
+.idea
 
 # production
 /build
+/backend/cache
 
 # misc
 .DS_Store
