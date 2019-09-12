@@ -11,16 +11,16 @@
     "comment": ""
   },
   "attributes": {
-    "name": {
+    "title": {
       "type": "string"
-    },
-    "description": {
-      "type": "text"
     },
     "date": {
       "type": "date"
     },
-    "image": {
+    "description": {
+      "type": "text"
+    },
+    "images": {
       "collection": "file",
       "via": "related",
       "plugin": "upload"
